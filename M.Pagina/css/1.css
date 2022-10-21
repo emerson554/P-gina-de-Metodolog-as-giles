@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Kanit:wght@200&family=Silkscreen&display=swap');
+
+#titulo{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    padding: 5%;
+    background-color: orange;
+    
+}
+
+body{
+    background-image: url(../img/Fondos\ para\ páginas\ web\ _\ Fondos\ de\ Pantalla.jpg);
+    background-size: cover;
+}
+
+#Parte1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#Parte1 ul li{
+    display: inline-block;
+    color: white;
+}
+
+#Parte2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Parte2 ul li{
+    display: inline-block;
+    color: white
+}
+
+#Parte3 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Parte3 ul li{
+    display: inline-block;
+    color: white
+}
+/*este es la barra de navegacion*/
+
+.dropdown{
+    margin: 0 auto;
+}
+nav ul img{
+    display: none;
+    align-items: left;
+    width: 50px;
+    height: 50px;
+}
+nav{
+    height: 60px;
+    background: #69b801f6;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.836);
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 150px;
+    font-family: 'Kanit', sans-serif;
+    justify-content: space-between;
+}
+
+nav ul li{
+    background: #59da0e;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    background: crimson;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover> ul{
+    display: block;
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: flex;
+    position: relative;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 1;
+}
